@@ -1,0 +1,9 @@
+<template id="app-pre-made-card-template">
+  <div id="card">
+    <button type="button" class="header" id="header">
+      <slot name="header"></slot>
+    </button>
+    <div class="content"><slot></slot></div>
+    <div class="footer"><slot name="footer"></slot></div>
+  </div>
+</template>
